@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* global */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img.responsive{
+    width: 100%;
+}
+/* reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 300;
+    background: #000;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* /reset CSS */
+
+h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+/* /global */
+
+/* cabecalho */
+header section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+header li a.logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+header nav.menu {
+    display: flex;
+}
+
+header nav.menu li {
+    padding-left: 35px;
+}
+
+header nav.menu li a {
+    font-size: 16px;
+    color: white;
+    font-weight: 520;
+}
+
+header nav.menu li a:hover {
+    font-size: 16px;
+    color: rgb(204, 204, 204);
+    font-weight: 520;
+    transition: 0.5s;
+}
+
+/* /cabecalho */
+
+/* conteudo-principal */
+
+main section.video div {
+    background-color: black;
+}
+
+main section div video {
+    opacity: 35%;
+    width: 100%;
+    height: 100%; 
+}
+
+/* /conteudo-principal */
+
+/* main-sobre */
+
+main section.bio {
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    color: #fff;
+}
+
+main section div.bios {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 40px;
+    display: flex;
+
+}
+
+main section div.foto img {
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    margin-top: 250px;
+}
+
+main section div.bios p.bio-txt {
+    padding-top: 15px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+main section div.bios li.titulos {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+main section div.bios li.titulos h1 {
+    font-size: 90px;
+}
+
+main section div.bios li.titulos h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+}
