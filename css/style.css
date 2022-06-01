@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+/* globais */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img.responsive{
+    width: 100%;
+}
+
+/* reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    background: none;
+    list-style: none;
+    text-decoration: none;
+}
+/* /reset CSS */
+
+h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 90px;
+    font-weight: 900;
+}
+
+/* /globais */
+
+/* header*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width:  0 auto;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li {
+    padding: 44px;
+}
+
+header nav ul li a {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+header nav ul li a:hover {
+    font-size: 16px;
+    color: rgb(207, 207, 207);
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+header nav ul li a#btn-contato {
+    border: 1.18px solid #fff;
+    padding: 6px 31px;
+    border-radius: 8.2px;
+}
+
+header nav ul li a#btn-contato:hover {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    padding: 6px 31px;
+    border-radius: 8.2px;
+}
+/* /header */
+
+/* video */
+main section.video div {
+    background-color: rgb(0, 0, 0);
+        
+}
+
+main section div video {
+    opacity: 35%;
+    height: 100%;
+    width: 100%;
+}
+/* /video */
+
+
+section.bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+section.bio aside {
+    width: 573px;
+    height: 100%;
+    
+}
+
+section.bio aside ul {        
+    margin-left: 163px;
+}
+
+section.bio aside ul li h3 {
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-bottom: 21px;
+}
+
+section.bio img {
+    width: 573px;
+    height: 573px;
+    padding: 44px;
+    margin-right: 161px;
+}
+
+section.servicos {
+    background-color: blue;
+}
+
+section.portfolio {
+    background-color: blueviolet;
+}
+
+section.contato {
+    background-color: chartreuse;
+}
+
+footer {
+    background-color: antiquewhite;
+}
